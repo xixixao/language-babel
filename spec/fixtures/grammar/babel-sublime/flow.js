@@ -811,7 +811,7 @@ class CB<X> {
 }
 // <- punctuation.section.class.end.js
 
-class A<T: void> extends B<T: void> {}
+class A<T: void> extends B<T: void>
 // <- meta.class.js storage.type.class.js
  // <- meta.class.js storage.type.class.js
 //^^^                                   meta.class.js
@@ -823,10 +823,8 @@ class A<T: void> extends B<T: void> {}
 //       ^ ^^^^             ^ ^^^^      support.type.builtin.primitive.flowtype
 //               ^^^^^^^                meta.class.extends.js
 //               ^^^^^^^                storage.type.extends.js
-//                                  ^   punctuation.section.class.begin.js
-//                                   ^  punctuation.section.class.end.js
 
-class D extends C<number> {
+class D extends C<number>
 // <- meta.class.js storage.type.class.js
  // <- meta.class.js storage.type.class.js
 //^^^                        meta.class.js
@@ -836,20 +834,15 @@ class D extends C<number> {
 //      ^^^^^^^              storage.type.extends.js
 //               ^      ^    punctuation.flowtype
 //                ^^^^^^     support.type.builtin.primitive.flowtype
-//                        ^  punctuation.section.class.begin.js
-  bar(): number {
-//^^^^^^ ^^^^^^ ^  meta.class.body.js
-//^^^^^^ ^^^^^^ ^  meta.function.method.js
-//^^^              entity.name.function.method.js
+  bar(): number
+//^^^              entity.name.function.js
+//^^^^^            meta.function-call.without-arguments.js
 //   ^             punctuation.definition.parameters.begin.js
 //   ^^            meta.brace.round.js
 //    ^            punctuation.definition.parameters.end.js
 //     ^           punctuation.type.flowtype
 //       ^^^^^^    support.type.builtin.primitive.flowtype
-//              ^  meta.brace.curly.js
     this.x = super.bar() + 1;
-//  ^^^^^^ ^ ^^^^^^^^^^^ ^ ^^  meta.class.body.js
-//  ^^^^^^ ^ ^^^^^^^^^^^ ^ ^^  meta.function.method.js
 //  ^^^^                       variable.language.this.js
 //      ^         ^            keyword.operator.accessor.js
 //       ^                     meta.property.object.js
@@ -863,21 +856,13 @@ class D extends C<number> {
 //                         ^   constant.numeric.js
 //                          ^  punctuation.terminator.statement.js
     return this.x;
-//  ^^^^^^ ^^^^^^^  meta.class.body.js
-//  ^^^^^^ ^^^^^^^  meta.function.method.js
 //  ^^^^^^          keyword.control.flow.js
 //         ^^^^     variable.language.this.js
 //             ^    keyword.operator.accessor.js
 //              ^   meta.property.object.js
 //              ^   variable.other.property.js
 //               ^  punctuation.terminator.statement.js
-  }
-//^  meta.class.body.js
-//^  meta.function.method.js
-//^  meta.brace.curly.js
-  static qux(): D { return new D(); }
-//^^^^^^ ^^^^^^ ^ ^ ^^^^^^ ^^^ ^^^^ ^  meta.class.body.js
-//^^^^^^ ^^^^^^ ^ ^ ^^^^^^ ^^^ ^^^^ ^  meta.function.method.js
+  static qux(): D
 //^^^^^^                               storage.modifier.js
 //       ^^^                           entity.name.function.method.js
 //          ^                          punctuation.definition.parameters.begin.js
@@ -885,14 +870,12 @@ class D extends C<number> {
 //           ^                         punctuation.definition.parameters.end.js
 //            ^                        punctuation.type.flowtype
 //              ^                      support.type.class.flowtype
-//                ^                 ^  meta.brace.curly.js
-//                  ^^^^^^             keyword.control.flow.js
-//                         ^^^         keyword.operator.new.js
-//                             ^^^     meta.function-call.without-arguments.js
-//                             ^       entity.name.function.js
-//                                ^    punctuation.terminator.statement.js
-}
-// <- punctuation.section.class.end.js
+    return new D()
+//  ^^^^^^             keyword.control.flow.js
+//         ^^^         keyword.operator.new.js
+//             ^^^     meta.function-call.without-arguments.js
+//             ^       entity.name.function.js
+
 
 var obj: {a: boolean; b: string; c: Foo} = {a: true, b: "Hi", c: new Foo()};
 // <- storage.type.js
