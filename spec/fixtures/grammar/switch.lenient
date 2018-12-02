@@ -1,0 +1,14 @@
+// SYNTAX TEST "source.js.lenient"
+
+// switch statement
+
+switch type
+//^^^^ ^^^^  meta.switch.js
+//^^^^       keyword.control.switch.js
+//     ^^^^     variable.other.readwrite.js
+  case a
+//^^^^       keyword.control.switch.js
+//     ^     variable.other.readwrite.js
+    return state
+//  ^^^^^^        keyword.control.flow.js
+//         ^^^^^  variable.other.readwrite.js
