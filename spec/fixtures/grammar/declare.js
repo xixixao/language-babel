@@ -1,4 +1,4 @@
-// SYNTAX TEST "source.js.jsx"
+// SYNTAX TEST "source.js.lenient"
 
 declare module 'a-unique-module-name' {
 // <- keyword.other.declare.flowtype
@@ -300,4 +300,4 @@ declare var foo: (
 // <- punctuation.definition.parameters.end.js meta.brace.round.js
 
 
-// >> only:(source.js.jsx)
+// >> only:(source.js.lenient)

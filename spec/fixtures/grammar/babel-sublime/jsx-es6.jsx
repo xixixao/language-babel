@@ -1,4 +1,4 @@
-// SYNTAX TEST "source.js.jsx"
+// SYNTAX TEST "source.js.lenient"
 
 // components/EmailInput.jsx
 
@@ -482,4 +482,4 @@ class Sound extends Model {
 // <- punctuation.section.class.end.js
 
 
-// >> only:(source.js.jsx)
+// >> only:(source.js.lenient)

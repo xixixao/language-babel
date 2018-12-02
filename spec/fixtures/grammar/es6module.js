@@ -1,4 +1,4 @@
-// SYNTAX TEST "source.js.jsx"
+// SYNTAX TEST "source.js.lenient"
 
 import(moduleSpecifier).then(someModule => someModule.foo());
 // <- meta.function-call.with-arguments.js keyword.control.module.js

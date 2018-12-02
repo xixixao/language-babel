@@ -1,4 +1,4 @@
-// SYNTAX TEST "source.js.jsx"
+// SYNTAX TEST "source.js.lenient"
 
 // Predicates
 
@@ -58,4 +58,4 @@ var a1 = (x: mixed): %checks => x !== null
 //                                    ^^^^  constant.language.null.js
 
 
-// >> only:(source.js.jsx)
+// >> only:(source.js.lenient)

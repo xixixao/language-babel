@@ -1,4 +1,4 @@
-// SYNTAX TEST "source.js.jsx"
+// SYNTAX TEST "source.js.lenient"
 
 import React from 'react';
 // <- keyword.control.module.js
@@ -443,4 +443,4 @@ export class Counter extends React.Component {
 // <- punctuation.section.class.end.js
 
 
-// >> only:(source.js.jsx)
+// >> only:(source.js.lenient)

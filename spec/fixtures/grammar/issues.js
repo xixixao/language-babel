@@ -1,4 +1,4 @@
-// SYNTAX TEST "source.js.jsx"
+// SYNTAX TEST "source.js.lenient"
 
 // Issue #480
 const thing :THING =<S>() => {}
@@ -103,7 +103,7 @@ a= () =>
 //^      entity.name.function.js
 // ^  ^  meta.brace.round.js
 //  ^^   variable.other.readwrite.js
- 
+
 method() {}
 // <- meta.class.body.js meta.function.method.js entity.name.function.method.js
  // <- meta.class.body.js meta.function.method.js entity.name.function.method.js
@@ -1999,4 +1999,4 @@ export default {
 //^                         punctuation.definition.comment.js
 
 
-// >> only:(source.js.jsx)
+// >> only:(source.js.lenient)

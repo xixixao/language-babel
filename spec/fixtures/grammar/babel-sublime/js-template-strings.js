@@ -1,4 +1,4 @@
-// SYNTAX TEST "source.js.jsx"
+// SYNTAX TEST "source.js.lenient"
 
 return `another template ${aa}`
 // <- keyword.control.flow.js
@@ -13,4 +13,4 @@ return `another template ${aa}`
 //                           ^   punctuation.quasi.element.end.js
 //                            ^  punctuation.definition.quasi.end.js
 
-// >> only:source.js.jsx
+// >> only:source.js.lenient

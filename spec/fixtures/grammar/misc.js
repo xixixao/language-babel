@@ -1,4 +1,4 @@
-// SYNTAX TEST "source.js.jsx"
+// SYNTAX TEST "source.js.lenient"
 
 // exitential forms
 
@@ -594,4 +594,4 @@ type $JSXIntrinsics = {
 //                                        ^  punctuation.terminator.statement.js
 
 
-// >> only:(source.js.jsx)
+// >> only:(source.js.lenient)

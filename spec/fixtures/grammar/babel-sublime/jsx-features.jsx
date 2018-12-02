@@ -1,4 +1,4 @@
-// SYNTAX TEST "source.js.jsx"
+// SYNTAX TEST "source.js.lenient"
 
 // JSX Fragements
 
@@ -194,4 +194,4 @@ for (var i=1; i<table.rows.length; i++) {
 
 
 
-// >> only:(source.js.jsx)
+// >> only:(source.js.lenient)

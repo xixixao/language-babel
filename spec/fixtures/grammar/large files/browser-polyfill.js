@@ -1,4 +1,4 @@
-// SYNTAX TEST "source.js.jsx"
+// SYNTAX TEST "source.js.lenient"
 
 (function e(t, n, r) {
   function s(o, u) {
@@ -4436,4 +4436,4 @@
   }]
 }, {}, [2]);
 
-// >> only:(source.js.jsx)
+// >> only:(source.js.lenient)

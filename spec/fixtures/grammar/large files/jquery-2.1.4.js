@@ -1,4 +1,4 @@
-// SYNTAX TEST "source.js.jsx"
+// SYNTAX TEST "source.js.lenient"
 /*!
  * jQuery JavaScript Library v2.1.4
  * http://jquery.com/
@@ -9208,4 +9208,4 @@ return jQuery;
 
 }));
 
-// >> only:(source.js.jsx)
+// >> only:(source.js.lenient)

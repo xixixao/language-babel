@@ -1,4 +1,4 @@
-// SYNTAX TEST "source.js.jsx"
+// SYNTAX TEST "source.js.lenient"
 /**
  * @abstract {@tutorial name} [link text]{@link url}
  // <- comment.block.documentation.js

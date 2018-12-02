@@ -1,4 +1,4 @@
-// SYNTAX TEST "source.js.jsx"
+// SYNTAX TEST "source.js.lenient"
 
 opaque type Alias: SuperType = Type
 // <- keyword.other.typedef.flowtype

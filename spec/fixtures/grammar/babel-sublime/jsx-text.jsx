@@ -1,4 +1,4 @@
-// SYNTAX TEST "source.js.jsx"
+// SYNTAX TEST "source.js.lenient"
 <div>
 // <- meta.tag.jsx punctuation.definition.tag.jsx
  // <- meta.tag.jsx entity.name.tag.open.jsx

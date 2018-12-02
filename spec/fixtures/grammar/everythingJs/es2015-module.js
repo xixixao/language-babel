@@ -1,4 +1,4 @@
-// SYNTAX TEST "source.js.jsx"
+// SYNTAX TEST "source.js.lenient"
 
 /* this file contains all grammatical productions in ECMA-262 edition 5.1 ** * **/
 
@@ -297,7 +297,10 @@ lineFeed:0
 //      ^   punctuation.separator.key-value.js
 //       ^  constant.numeric.js
 0;
-// <- constant.numeric.js // <- punctuation.terminator.statement.jscarriageReturn:0// <- constant.other.object.key.js string.unquoted.js
+// <- constant.numeric.js
+ // <- punctuation.terminator.statement.js
+carriageReturn:0
+// <- constant.other.object.key.js string.unquoted.js
  // <- constant.other.object.key.js string.unquoted.js
 //^^^^^^^^^^^^    constant.other.object.key.js
 //^^^^^^^^^^^^    string.unquoted.js

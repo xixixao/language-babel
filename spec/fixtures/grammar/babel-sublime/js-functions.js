@@ -1,4 +1,4 @@
-// SYNTAX TEST "source.js.jsx"
+// SYNTAX TEST "source.js.lenient"
 
 let Sound = {
 // <- storage.type.js
@@ -2711,4 +2711,4 @@ yield* genfunc;
 
 
 
-// >> only:(source.js.jsx)
+// >> only:(source.js.lenient)

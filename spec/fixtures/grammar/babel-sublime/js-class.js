@@ -1,4 +1,4 @@
-// SYNTAX TEST "source.js.jsx"
+// SYNTAX TEST "source.js.lenient"
 
 class MyClass {
 // <- meta.class.js storage.type.class.js
@@ -134,4 +134,4 @@ class MyClass {
 // <- punctuation.section.class.end.js
 
 
-// >> only:(source.js.jsx)
+// >> only:(source.js.lenient)

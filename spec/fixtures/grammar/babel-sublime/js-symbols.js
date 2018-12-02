@@ -1,4 +1,4 @@
-// SYNTAX TEST "source.js.jsx"
+// SYNTAX TEST "source.js.lenient"
 
 A = function() {}
 // <- meta.function.js entity.name.function.js
@@ -322,4 +322,4 @@ class Y {}
 //       ^  punctuation.section.class.end.js
 
 
-// >> only:(source.js.jsx)
+// >> only:(source.js.lenient)

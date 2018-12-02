@@ -1,4 +1,4 @@
-// SYNTAX TEST "source.js.jsx"
+// SYNTAX TEST "source.js.lenient"
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
@@ -23960,4 +23960,4 @@ return /******/ (function(modules) { // webpackBootstrap
 });
 ;
 
-// >> only:(source.js.jsx)
+// >> only:(source.js.lenient)

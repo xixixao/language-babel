@@ -1,4 +1,4 @@
-## SYNTAX TEST "source.js.jsx"
+## SYNTAX TEST "source.js.lenient"
 
 var schema = buildSchema(/* GraphQL */`
   type Query
@@ -477,4 +477,4 @@ Relay.QL`
 ##^  meta.selectionset.graphql
 ##^  punctuation.operation.graphql
 `
-##  >> only:source.js.jsx
+##  >> only:source.js.lenient
